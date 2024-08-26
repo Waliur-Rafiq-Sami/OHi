@@ -13,7 +13,18 @@ const Footer = () => {
             <p className="text-sm font-semibold font-1">
               Bangladesh Army University Of Science And Technology (BAUST)
             </p>
-            <p className="text-sm font-semibold font-2">Hosting: </p>
+            <p className="text-sm font-semibold font-2">
+              Hosting:{" "}
+              <span>
+                <a
+                  target="_blank"
+                  href=" https://github.com/Waliur-Rafiq-Sami/OHi"
+                  className="link link-accent font-1"
+                >
+                  https://github.com/Waliur-Rafiq-Sami/OHi
+                </a>
+              </span>
+            </p>
           </div>
         </aside>
       </footer>

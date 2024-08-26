@@ -9,7 +9,7 @@ const MainContant = ({ pic, color, ht, hcolor, text }) => {
   return (
     <>
       <div
-        className="min-h-screen bg-no-repeat bg-blue-300 bg-fixed md:bg-contain bg-cover flex items-end max-w-[500px] relative"
+        className="min-h-screen bg-no-repeat bg-blue-300 bg-fixed md:bg-contain bg-cover flex items-end max-w-[500px] relative "
         style={{
           backgroundImage: `url(${pic})`,
         }}

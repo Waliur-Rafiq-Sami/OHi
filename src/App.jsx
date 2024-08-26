@@ -10,16 +10,14 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 // alart
-
-// import pic2 from "../public/20220221_120236.jpg";
-// import pic3 from "../public/20220306_155151.jpg";
-// import pic4 from "../public/20220503_125836.jpg";
-// import pic5 from "../public/20220503_131352.jpg";
-// import pic6 from "../public/20220503_153143.jpg";
-// import pic7 from "../public/IMG_20211211_214239_229.webp";
-// import pic8 from "../public/received_2781592995293621.jpeg";
-// import pic9 from "../public/WhatsApp Image 2024-08-23 at 11.43.21_d9f9a848.jpg";
-// import pic10 from "../public/WhatsApp Image 2024-08-23 at 11.43.22_fad86df2.jpg";
+import pic3 from "../src/image/img3.jpg";
+import pic4 from "../src/image/img4.jpg";
+import pic5 from "../src/image/img5.jpg";
+import pic6 from "../src/image/img6.jpg";
+import pic7 from "../src/image/img7.jpg";
+// import pic8 from "../src/image/received_2781592995293621.jpeg";
+// import pic9 from "../src/image/WhatsApp Image 2024-08-23 at 11.43.21_d9f9a848.jpg";
+// import pic10 from "../src/image/WhatsApp Image 2024-08-23 at 11.43.22_fad86df2.jpg";
 function App() {
   const [password, setPassword] = useState(false);
   const [rightPassword, setRightPassword] = useState(true);
@@ -73,7 +71,19 @@ function App() {
             text={text1.content}
           ></MainContant>
           <div className="border-2 border-[#b8ff14]"></div>
-          <MainContant pic={pic2}></MainContant>
+          <MainContant pic={pic3}></MainContant>
+          <div className="border-2 border-[#b8ff14]"></div>
+          <MainContant pic={pic1}></MainContant>
+          <div className="border-2 border-[#b8ff14]"></div>
+          <MainContant pic={pic4}></MainContant>
+          <div className="border-2 border-[#b8ff14]"></div>
+          <MainContant pic={pic5}></MainContant>
+          <div className="border-2 border-[#b8ff14]"></div>
+          <MainContant pic={pic6}></MainContant>
+          <div className="border-2 border-[#b8ff14]"></div>
+          <MainContant pic={pic7}></MainContant>
+          {/* <div className="border-2 border-[#b8ff14]"></div>
+          <MainContant pic={pic1}></MainContant> */}
           {/* here is footer  */}
           <div className="border-2 border-[#b8ff14]"></div>
           <Footer></Footer>
