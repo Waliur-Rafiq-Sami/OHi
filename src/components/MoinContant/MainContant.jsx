@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-const MainContant = ({ pic, color, ht, hcolor, text }) => {
-  //   console.log(ht);
+const MainContant = ({ pic, color, ht, hcolor, text, inbox }) => {
   const [show, setShow] = useState(false);
   const onShow = () => {
     setShow(!show);
@@ -22,9 +21,9 @@ const MainContant = ({ pic, color, ht, hcolor, text }) => {
             {text}
             <button
               onClick={onShow}
-              className="btn btn-sm btn- btn-info text-red-400 font-extrabold btn-outline font-2"
+              className="btn text-lg btn-sm bg-[#9741b1] border-none text-transparent btn-info font-extrabold btn-outline font-2"
             >
-              {"show"}
+              {"Read"}
             </button>
           </p>
           <div className="h-screen backdrop-blur-sm mx-3 mb-10 absolute top-0 left-0 pb-8 transition-transform transform hover:scale-105">
@@ -33,47 +32,12 @@ const MainContant = ({ pic, color, ht, hcolor, text }) => {
                 show ? "" : "hidden"
               }`}
             >
-              <p className="inline-block">
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text, some text, some text, some
-                text, some text, some text, some text, some text, some text,
-                some text, some text, some text,
-              </p>
+              <p className="inline-block">{inbox}</p>
               <p className="text-end">
-                <button className="btn-warning btn" onClick={onShow}>
+                <button
+                  className="btn-warning btn mt-5 font-bold text-lg"
+                  onClick={onShow}
+                >
                   Close
                 </button>
               </p>
