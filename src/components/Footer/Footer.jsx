@@ -6,7 +6,7 @@ const Footer = () => {
         Developer Information
       </h1>
       <footer className="footer border-t px-10 py-4">
-        <aside className="flex items-center ">
+        <aside className="flex">
           <img className="rounded-full w-1/3" src={flogo} alt="" />
           <div>
             <h1 className="font-bold text-lg font-2">Md. Waliur Rafiq Sami</h1>

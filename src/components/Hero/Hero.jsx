@@ -11,8 +11,8 @@ const Hero = () => {
           <TypingAnimation></TypingAnimation>
         </div>
         <img className="w-full" src={pic1} alt="" />
-        <div className="absolute w-2/3">
-          <p className="p-5 mt-14">
+        <div className="absolute w-3/4">
+          <p className="p-5 mt-16">
             <span className="py-2 text-xl font-extrabold font-2 text-[#d3c019]">
               OHI,
             </span>
