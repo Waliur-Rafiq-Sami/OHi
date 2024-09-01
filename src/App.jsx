@@ -25,7 +25,7 @@ function App() {
   const fromSubmit = (e) => {
     e.preventDefault();
     // console.log(e.target.password.value);
-    if (e.target.password.value == "ohi") {
+    if (e.target.password.value == "ohi-10102006") {
       setPassword(true);
     } else {
       setRightPassword(false);
