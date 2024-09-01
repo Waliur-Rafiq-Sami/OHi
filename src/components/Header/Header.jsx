@@ -10,7 +10,7 @@ const Header = () => {
           <p className="font-semibold text-start text-2xl text-[#2946ec]">
             Welcome . ..
           </p>
-          <p className="text-[#a632db]">
+          <p className="text-[#a632db] font-semibold">
             Fabiha Tanha <span className="text-[#d3234f]">ohi</span>
           </p>
         </div>

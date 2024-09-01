@@ -18,7 +18,7 @@ const MainContant = ({ pic, color, ht, hcolor, headerColor, text, inbox }) => {
         <div
           className={`container mx-auto p-5 font-bold text-xl text-justify `}
         >
-          <h1 className={`text-5xl ${hcolor} text-[#88f1ff] py-5`}>
+          <h1 className={`text-4xl ${hcolor} text-[#b3f6ff] py-5`}>
             {show ? <></> : <>{ht}</>}
           </h1>
           <p className={` ${color} ${show ? "hidden" : ""}`}>
@@ -30,9 +30,9 @@ const MainContant = ({ pic, color, ht, hcolor, headerColor, text, inbox }) => {
               {"Read"}
             </button>
           </p>
-          <div className="h-screen backdrop-blur-sm m-5  mb-10 absolute top-0 left-0 pb-8 transition-transform transform hover:scale-105">
+          <div className="h-screen backdrop-blur-sm mx-5 my-8 mb-10 absolute top-0 left-0 pb-8 transition-transform transform hover:scale-105">
             <div
-              className={` ${headerColor} rounded-xl my-3 p-3 overflow-x-auto h-full ${
+              className={`${headerColor} rounded-xl my-3 p-3 overflow-x-auto h-full ${
                 show ? "" : "hidden"
               }`}
             >

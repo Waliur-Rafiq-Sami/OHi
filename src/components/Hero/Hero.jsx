@@ -1,6 +1,6 @@
 import pic1 from "../../image/heroIMG.png";
 import BGpic from "../../image/allart/bghero.jpg";
-import BGpicX from "../../image/allart/heroX.png";
+// import BGpicX from "../../image/allart/heroX.png";
 import TypingAnimation from "../TypingAnimation/TypingAnimation";
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
               OHI,
             </span>
             <br />
-            <span className="font-semibold text-gray-500">
+            <span className="font-semibold text-gray-600">
               I've been wanting to tell you my thoughts for a long time, but I
               couldn't find the way to say it, so I made it to say the words.
             </span>
